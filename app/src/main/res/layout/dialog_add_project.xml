@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/edit_project_name"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Назва проєкту" />
+
+    <EditText
+        android:id="@+id/edit_project_description"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Опис проєкту" />
+
+    <EditText
+        android:id="@+id/edit_project_deadline"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Дедлайн" />
+
+    <EditText
+        android:id="@+id/edit_project_participants"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Учасники" />
+
+    <Spinner
+        android:id="@+id/spinner_category"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:entries="@array/project_categories" />
+</LinearLayout>

@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">Project Manager</string>
+
+    <string-array name="project_categories">
+        <item>Дизайн</item>
+        <item>Розробка</item>
+        <item>Тестування</item>
+        <item>Документація</item>
+    </string-array>
+
 </resources>
